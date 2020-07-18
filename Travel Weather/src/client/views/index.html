@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+      name="viewport"
+    />
+    <title>Final Project</title>
+  </head>
+  <header><h1>Travel Planner</h1></header>
+  <body>
+    <main>
+      <section id="section1">
+        <h2 id="txt">Trip details</h2>
+        <input id="to" type="text" placeholder="To" />
+        <input id="date" type="date" />
+        <button id="click">Click</button>
+      </section>
+      <section id="section2">
+        <img id="img" />
+        <h1 id="city">The city</h1>
+        <h1 id="text1">The Date</h1>
+        <h1 id="temp">The tempreture</h1>
+        <h1 id="text2">City latitude</h1>
+      </section>
+      <button id="delete" href="#" onclick="removeSection()">Delete</button>
+    </main>
+    <footer></footer>
+    <script>
+      // Check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
+  </body>
+</html>

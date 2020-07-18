@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 2;
+  background-color: pink;
+}
+
+#txt {
+  text-align: center;
+}
+
+#to {
+  height: 60px;
+  width: 200px;
+}
+
+#date {
+  height: 60px;
+  width: 200px;
+}
+
+#click {
+  height: 60px;
+  width: 300px;
+}
+#section1 {
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+#section2 {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+#city {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+
+#text1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#temp {
+  text-align: center;
+}
+
+#delete {
+  height: 20px;
+  width: 60px;
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+}
+
+section {
+  max-width: 800px;
+}
